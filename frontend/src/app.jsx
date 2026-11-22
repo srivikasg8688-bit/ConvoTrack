@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/sidebar";
+import Navbar from "./components/navbar";
 
-import Dashboard from "./pages/Dashboard";
-import Meetings from "./pages/Meetings";
-import UploadMeeting from "./pages/UploadMeeting";
-import MeetingDetails from "./pages/MeetingDetails";
-import Tasks from "./pages/Tasks";
+import Dashboard from "./pages/dashboard";
+import Meetings from "./pages/meetings";
+import UploadMeeting from "./pages/uploadmeeting";
+import MeetingDetails from "./pages/meetingdetails";
+import Tasks from "./pages/tasks";
 import Decisions from "./pages/Decisions";
 
 function App() {

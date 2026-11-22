@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getMeetings, getTasks } from "../services/api";
-import StatCard from "../components/StatCard";
+import StatCard from "../components/statcard";
 
 export default function Dashboard() {
   const [meetings, setMeetings] = useState([]);
