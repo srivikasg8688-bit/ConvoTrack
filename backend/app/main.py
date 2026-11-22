@@ -11,11 +11,12 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Frontend connection
+# Frontend connection (CORS)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "https://convotrack-2.onrender.com/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
